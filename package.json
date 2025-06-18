@@ -1,0 +1,15 @@
+{
+  "name": "bun-grpc-repro",
+  "version": "1.0.0",
+  "description": "Minimal gRPC repro to test Bun vs Node compatibility",
+  "type": "module",
+  "scripts": {
+    "start:server": "node server.js",
+    "start:client:node": "node client.js",
+    "start:client:bun": "bun client.js"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.9.4",
+    "@grpc/proto-loader": "^0.7.6"
+  }
+}
