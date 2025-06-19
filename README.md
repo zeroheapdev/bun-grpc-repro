@@ -35,7 +35,7 @@ package.json    # All dependencies listed
 ## Environment
 
 * Bun: v1.2.8 / v1.2.16 (tested both)
-* Node.js: v22.14.0
+* Node.js: v22.16.0
 * OS: Windows 10 Pro 22H2 (Build 19045)
 
 ---
