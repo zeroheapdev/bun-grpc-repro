@@ -69,3 +69,12 @@ Bun should handle a basic gRPC client request just like Node.
 ## Actual
 
 Request hangs without error. Works immediately under Node.
+
+---
+
+## Update
+
+Works on grpc-js v1.12.6 : [https://github.com/oven-sh/bun/issues/20284#issue-3131587659](https://github.com/oven-sh/bun/issues/20284#issuecomment-2981481831)
+```bash
+npm install @grpc/grpc-js@1.12.6 @grpc/proto-loader@0.7.5
+```
